@@ -1,0 +1,12 @@
+[package]
+name = "mayo-rs"
+version = "0.1.0"
+edition = "2021"
+license-file = "LICENSE"
+description = "Mayo as a CLI"
+
+[dependencies]
+
+[[bin]]
+name = "mayo"
+path = "src/main.rs"
